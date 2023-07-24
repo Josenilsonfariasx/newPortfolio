@@ -1,18 +1,22 @@
 export const projects = [
   {
-    name: "Projeto 1",
-    description: "Atividade Props Card Pessoas",
+    name: "backend-social-network",
+    description: "Social Network: Este projeto é uma API backend para uma rede social simple. Implementa um CRUD completo (Create, Read, Update, Delete) usando as tecnologias JWT (JSON Web Tokens), Prisma ORM e Express, Postgree Sql, TypeScript...",
+    link:"https://github.com/Josenilsonfariasx/backend-social-network",
   },
   {
-    name: "Projeto 2",
-    description: "Atividade Praticando Children",
+    name: "Cademed-back",
+    description: "Site de marcações de consultas de pacientes",
+    link:"https://github.com/Josenilsonfariasx/cademed-back",
   },
   {
-    name: "Projeto 3",
-    description: "Descrição do projeto",
+    name: " TinderDoTrabalho",
+    description: "Site de busca de empregos",
+    link:"https://github.com/Josenilsonfariasx/TinderDoTrabalho",
   },
   {
-    name: "Projeto 4",
-    description: "Descrição do projeto",
+    name: "bibliotecaDjango",
+    description: "Site de uma biblioteca feita em Python com framework Django",
+    link:"https://github.com/Josenilsonfariasx/bibliotecaDjango",
   },
 ];

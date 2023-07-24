@@ -1,11 +1,13 @@
 .sectionTech{
     margin-top: 5rem;
+    box-sizing: border-box;
 }
 
 .sectionTech div ul{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    box-sizing: border-box;
 }
 
 .sectionTech div ul li{
@@ -20,4 +22,15 @@
 .sectionTech div ul li img{
     width: 1.75rem;
     height: 2.02344rem;
+}
+
+@media(max-width: 700px){
+    .sectionTech div ul{
+        justify-content: center;
+    }
+    .sectionTech div h2{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-right: 90px;
+    }
 }

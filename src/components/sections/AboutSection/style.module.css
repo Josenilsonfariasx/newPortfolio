@@ -1,0 +1,21 @@
+.aboutMe {
+    padding: 0;
+}
+.aboutMe > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 0;
+    width: 100%;
+}
+
+.aboutMe h2 {
+    min-width: max-content;
+}
+
+@media(max-width: 700px) {
+    .aboutMe > div {
+        flex-direction: column;
+        max-width: 20.625rem;
+    }
+}

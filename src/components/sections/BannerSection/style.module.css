@@ -1,0 +1,23 @@
+.banner {
+    margin: 3.5rem 0;
+}
+
+.banner div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.banner div button {
+    margin-top: 1.8rem;
+}
+.sectionText h1 {
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 700px){
+    .banner div {
+        flex-direction: column;
+        max-width: 20.625rem;
+    }
+}

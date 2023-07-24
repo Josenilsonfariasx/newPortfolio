@@ -1,0 +1,23 @@
+.sectionTech{
+    margin-top: 5rem;
+}
+
+.sectionTech div ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sectionTech div ul li{
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    width: 300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionTech div ul li img{
+    width: 1.75rem;
+    height: 2.02344rem;
+}

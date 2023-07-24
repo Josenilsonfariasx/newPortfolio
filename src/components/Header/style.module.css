@@ -1,0 +1,22 @@
+.header div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 1.375rem 0;
+	gap: 30px;
+}
+
+
+.header nav {
+	display: flex;
+	gap: 60px;
+}
+
+@media (max-width: 700px) {
+    .header div {
+		flex-direction: column;
+		padding: 1.8125rem 1.6875rem;
+		margin-bottom: 4.375rem;
+	}
+}

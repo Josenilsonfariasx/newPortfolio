@@ -1,0 +1,28 @@
+.btn{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 12px;
+
+	gap: .6rem;
+
+	height: 2.4375rem;
+	padding: 0 1.875rem;
+
+	font-family: var(--font-primary);
+	font-size: 0.875rem;
+	color: var(--white);
+	font-weight: 600;
+	line-height: 1.4;
+
+
+
+	background-color: var(--color-primary);
+	cursor: pointer;
+}
+
+
+.btn:hover{
+	background-color: var(--color-primary-hover) ;
+}

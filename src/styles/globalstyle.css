@@ -1,0 +1,27 @@
+:root{
+	
+	--font-primary: 'Inter', sans-serif;
+	
+	--color-primary: #6880FF;
+	--color-primary-hover: #7C91FF;
+	
+	--color-border: rgba(255, 255, 255, 0.50);
+	
+	--black: #000000;
+	--white: #ffffff
+}
+
+
+
+
+body{
+	background-color: var(--black);
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+
+	max-width: 59.375rem;
+}

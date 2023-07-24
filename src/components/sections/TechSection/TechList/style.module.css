@@ -24,7 +24,7 @@
     height: 2.02344rem;
 }
 
-@media(max-width: 700px){
+@media(max-width: 940px){
     .sectionTech div ul{
         justify-content: center;
     }

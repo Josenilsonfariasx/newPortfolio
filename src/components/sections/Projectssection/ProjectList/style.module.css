@@ -31,7 +31,7 @@
     width: 27.3125rem;
 }
 
-@media(max-width: 700px){
+@media(max-width: 940px){
     .listSection div h2 {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -40,10 +40,19 @@
     .ul {
         justify-content: center;
     }
-
     .ul li {
-        box-sizing: border-box;
-        overflow: scroll;
+        display: flex; /* Permite que a div e a img ocupem o espaço verticalmente */
+        list-style: none;
+        max-width: 400px; /* Remove os marcadores da lista */
     }
     
+    .ul li div {
+        max-width: 80%; /* Garante que a div não ultrapasse a largura da li */
+        word-wrap: break-word; /* Quebra as palavras para ajustar à largura */
+    }
+    
+    .ul li img {
+        max-width: 100%; /* A imagem se ajustará à largura da li */
+        max-height: 100%; /* A imagem se ajustará à altura da li */
+    }
 }

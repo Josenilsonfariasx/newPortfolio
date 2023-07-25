@@ -1,4 +1,4 @@
-import git from '../../../../assets/git-icon.png'
+import git from "../../../../assets/git-icon.png"
 
 export const ProjectCard = ({name, description, link}) => {
 	

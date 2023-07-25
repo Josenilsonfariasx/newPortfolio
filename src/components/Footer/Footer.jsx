@@ -1,7 +1,7 @@
-import whats from '../../assets/whatsapp-icon.png' 
-import linkedin from '../../assets/linkedin-icon.png'
-import github from '../../assets/github-icon.png'
-import styles from './styles.module.css'
+import whats from "../../assets/whatsapp-icon.png" 
+import linkedin from "../../assets/linkedin-icon.png"
+import github from "../../assets/github-icon.png"
+import styles from "./styles.module.css"
 
 export const Footer = ()=>{
     return (
